@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath tinypipeline_service app.wsgi
+web: gunicorn --pythonpath tinypipeline_service app

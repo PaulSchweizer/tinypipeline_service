@@ -1,7 +1,6 @@
 *____*
 cover
 .coverage
-venv
 
 # Sublime
 *.sublime-project

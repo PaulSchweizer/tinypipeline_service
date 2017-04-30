@@ -1,1 +1,1 @@
-web: gunicorn tinypipeline.app:app --log-file=-
+web: gunicorn --pythonpath tinypipeline_service app.wsgi

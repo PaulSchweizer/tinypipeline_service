@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath app tinypipeline.app
+web: gunicorn --pythonpath app tinypipeline_service.app

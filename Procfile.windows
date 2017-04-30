@@ -1,0 +1,1 @@
+web: python tinypipeline_service/app.py runserver 0.0.0.0:5000

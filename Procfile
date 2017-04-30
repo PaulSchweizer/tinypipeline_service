@@ -1,1 +1,1 @@
-web: gunicorn tinypipeline_service.app --log-file -
+web: gunicorn tinypipeline.app:app --log-file=-

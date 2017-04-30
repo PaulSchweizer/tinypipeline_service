@@ -34,5 +34,5 @@ class PathsResource(Resource):
         """Get Documentation"""
         args = PathsResource.parser.parse_args()
 
-        return args
+        return {'path': args}
         # return {'path': Paths.project(project=args['project'])}
